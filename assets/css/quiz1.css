@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_livro{
+    width: 20vw;
+    height: 65vh;
+}
+
+
+.start-quiz{
+
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #fff;
+    background-color: #a4cdff;
+    padding: 11px 31px;
+    border: solid #a4cdff 2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 0px 50px;
+    transition : .5s;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.start-quiz:hover{
+    padding: 10px 45px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #a4cdff;
+    border: solid 2px #a4cdff;
+}
+
+/* Finish game */
+.final-message {
+  font-size: 20px;
+  text-align: center;
+}
+
+.final-message span {
+  display: block;
+  margin-top: 8px;
+}
+
+/* General styles */
+.hide {
+  display: none;
+}
+
+.correct {
+  background-color: #049b48;
+}
+
+.incorrect {
+  background-color: #f13f3f;
+}
