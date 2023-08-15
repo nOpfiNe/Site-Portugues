@@ -3,9 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HomePage</title>
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img class="img-bdc" src="img/quiz1/livro1.jpg" alt="capa-livro-bom-dia,camaradas">
+        </div>
+        <span class="quiz"><a href="quiz1.html" target="_blank">Quiz</a></span>
+    </header>
+
+    <main>
+        
+        <section>
+            <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                   
+                    <div class="coment first">
+                        <div>
+                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Dolorem velit earum modi quis nostrum quibusdam consectetur, qui eius libero magnam vero sed repudiandae aliquid, cum sit explicabo quae.</q>
+                        </div>
+                        <div class="pessoa">
+                            <img class="foto-perfil" src="img/quiz1/pica-pau.jpg" alt="">
+                            <span>Bruna</span>
+                        </div>
+                    </div>
+
+                        <div class="coment">
+                            <div>
+                                <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Dolorem velit earum modi quis nostrum quibusdam consectetur, qui eius libero magnam vero sed repudiandae aliquid, cum sit explicabo quae.</q>
+                            </div>
+                            <div class="pessoa">
+                                <img class="foto-perfil" src="img/quiz1/pica-pau.jpg" alt="">
+                                <span>Bruno</span>
+                            </div>
+                        </div>
+                        
+                        <div class="coment">
+                            <div>
+                                <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Dolorem velit earum modi quis nostrum quibusdam consectetur, qui eius libero magnam vero sed repudiandae aliquid, cum sit explicabo quae.</q>
+                            </div>
+                            <div class="pessoa">
+                                <img class="foto-perfil" src="img/quiz1/pica-pau.jpg" alt="">
+                                <span>Grazielly</span>
+                            </div>
+                        </div>  
+                        
+
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                        </div>
+
+                       </div>
+
+                       <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="content-footer">
+            <div class="logo-header"> <img class="img-bdc" src="img/quiz1/livro1.jpg" alt="">
+            </div>
+            <div class="desenvolvedores">
+                <p>Escritores e Desenvolvedores:</p>
+                <ul class="">
+                    <li><a href="https://github.com/nOpfiNe" target="_blank">Bruna</a></li>
+                    <li><a href="https://github.com/GraZielly002" target="_blank">Grazielly</a></li>
+                    <li><a href="https://github.com/brunnoferreiraaa" target="_blank">Bruno</a></li>
+                </ul>
+            </div>
+            <div class="contato">
+                <p>Contato:</p>
+                <ul>
+                    <li><a href="#">Bruna@gmail.com</a></li>
+                    <li><a href="#">Grazielly@gmail.com</a></li>
+                    <li><a href="#">Bruno@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
+<script>
+    let count = 1;
+    document.getElementById("radio1").checked = true;
+
+    setInterval(function(){
+        nextImage();
+    },5000)
+
+    function nextImage(){
+        count++
+        if(count>3){
+            count = 1
+        }
+        document.getElementById("radio"+count).checked = true;
+    }
+</script>
 </html>
