@@ -164,12 +164,31 @@ const questions = [
   },
 
   {
-    question: "Sobre o poema Deusdete, a musa, o que é apresentado: ",
+    question: "Qual poema abaixo fala sobre questões religiosas e o racismo estrutural em religiões, como o catolicismo, frisado pela imagem pintada de como seria 'Jesus':",
     answers: [
-      { text: "A personagem quebrando a televisão literalmente.", correct: false },
-      { text: "A aceitaçao da personagem Deusdete dos seus traços raciais.", correct: true },
-      { text: "Mostrar que o mundo da televisão existe preconceito.", correct: false },
-      { text: "Que Deusdete se rebelou contra o mundo desigual.", correct: false }
+      { text: "Alforria", correct: false },
+      { text: "Sagrada Esperança", correct: false },
+      { text: "Força Ancestral", correct: true },
+      { text: "Papo reto", correct: false }
+    ]
+  },
+
+  {
+    question: "Qual trecho abaixo é do poema 'Miradouros'?",
+    answers: [
+      { text: "Sou preta guerreira/ Defendo um escurecimento necessário/ tiro qualquer racista do armário", correct: false },
+      { text: "Lá no céu/ não encontrei/ a Princesa Isabel", correct: false },
+      { text: "Lindeza da tarde foi o seu beijo/ Chegando assim de repente/ seus lábios quentes", correct: false },
+      { text: "Se você puder me ver/ além da cor/ além do sexo", correct: true }
+    ]
+  },
+  {
+    question: "Qual trecho abaixo é do poema 'Miradouros'?",
+    answers: [
+      { text: "Sou preta guerreira/ Defendo um escurecimento necessário/ tiro qualquer racista do armário", correct: false },
+      { text: "Lá no céu/ não encontrei/ a Princesa Isabel", correct: false },
+      { text: "Lindeza da tarde foi o seu beijo/ Chegando assim de repente/ seus lábios quentes", correct: false },
+      { text: "Se você puder me ver/ além da cor/ além do sexo", correct: true }
     ]
   },
 ]
