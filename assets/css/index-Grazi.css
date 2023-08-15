@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -47,7 +50,7 @@
 
 .titulo1{
     color: #000;
-    font-family: Inter;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.9rem;
     font-style: normal;
     font-weight: 400;
@@ -56,7 +59,7 @@
 
 .titulo2{
     color: #000;
-    font-family: Inter;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.9rem;
     font-style: normal;
     font-weight: 400;
@@ -90,10 +93,11 @@
     width: 15rem;
     height: 100%;
     color: #000;
-    font-family: Inter;
+    font-family:'Tomorrow', sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
+    word-spacing: -3px;
 }
 
 .frase1{
@@ -101,7 +105,7 @@
     height: 100%;
     color: #000;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Ysabeau Office', sans-serif;
     font-size: 1.25rem;
     font-style: italic;
     font-weight: 400;
@@ -114,7 +118,7 @@
     width: 15rem;
     height: 100%;
     color: #000;
-    font-family: Inter;
+    font-family: 'Tomorrow', sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -122,6 +126,7 @@
     background: #FAC92C;
     backdrop-filter: blur(2px);
     margin-top: 1.5rem;
+    word-spacing: -4.50px;
 }
 
 .coluna2{
@@ -149,6 +154,8 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-left: 2rem;
     margin-top: 2rem;
+    background-image: url(../../img/quiz1/terra_negra.jpg);
+    background-size: 100%;
 }
 
 .second{
@@ -165,7 +172,7 @@
     backdrop-filter: blur(2px);
     padding: 0.600rem;
     color: #000;
-    font-family: Inter;
+    font-family: 'Tomorrow', sans-serif;
     font-size: 0.9375rem;
     font-weight: 400;
     margin-top: 4em;
@@ -183,7 +190,7 @@
     width: 15rem;
     color: #000;
     text-align: justify;
-    font-family: Inter;
+    font-family: 'Tomorrow', sans-serif;
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 400;
@@ -193,7 +200,7 @@
     width: 13rem;
     color: #000;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Ysabeau Office', sans-serif;
     font-size: 1.25rem;
     font-style: italic;
     font-weight: 400;
@@ -208,7 +215,7 @@
     height: 100%;
     color: #000;
     text-align: justify;
-    font-family: Inter;
+    font-family: 'Tomorrow', sans-serif;
     font-size: 0.9375rem;   
     font-weight: 400;
     background: #FEBBA1;
@@ -229,13 +236,14 @@
     height: 100%;
     color: #000;
     text-align: justify;
-    font-family: Inter;
+    font-family: 'Tomorrow', sans-serif;
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 400;
     padding: 0.500rem;
     background: #CBFCD2;
     backdrop-filter: blur(2px);
+    word-spacing: -3px;
 }
 
 .quadro3{
@@ -255,4 +263,6 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-left: 2rem;
     margin-top: 2rem;
+    background-image: url(../../img/quiz1/livro1.jpg);
+    background-size: 100%;
 }
