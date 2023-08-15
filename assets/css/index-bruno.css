@@ -20,13 +20,13 @@ header{
     align-items: center;
     border-radius: 0px 0px 24px 24px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.384);
+    margin-bottom: 2.5em;
 }
 
 .img-bdc{
     height: 75px;
     width: 75px;
     background-position: center center;
-    border-radius: 50%;
 }
 
 .quiz{
@@ -60,7 +60,7 @@ section{
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    margin-top: 10rem;
+    margin-top: 2rem;
 }
 
 .slider{
@@ -171,4 +171,5 @@ ul li >a:hover{
 
 .logo-header{
     min-width: 120px;
+    margin-top: 1em;
 }

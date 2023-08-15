@@ -1,8 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     width: 100vh;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
 }
+
 .numb1{
     width: 7rem;
     height: 7rem;
@@ -10,6 +18,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-left: 4em;
 }
+
 .numb2{
     width: 7rem;
     height: 7rem;
@@ -35,85 +44,103 @@
     text-align: center;
     padding-top: 1rem;
 }
+
 .titulo1{
     color: #000;
     font-family: Inter;
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-style: normal;
     font-weight: 400;
     margin-left: 2rem;
 }
+
 .titulo2{
     color: #000;
     font-family: Inter;
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-style: normal;
     font-weight: 400;
     margin-left: 2rem;
 }
+
 .container2{
     width: 100vh;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
 }
+
 .primer{
     display: flex;
     justify-content: space-around;
     margin-top: 2rem;
 }
+
 .colunas{
-    width: 100vh;
     display: flex;
     flex-direction: column;
     margin-left: 4em;
     justify-content: space-between;
-
+    margin-right: 3em;
+    text-align: justify;
 }
+
 .blc1{
     width: 15rem;
-    height: 25rem;
+    height: 100%;
     color: #000;
     font-family: Inter;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
 }
+
 .frase1{
     width: 13rem;
-    height: 4rem;
+    height: 100%;
     color: #000;
+    text-align: center;
     font-family: Inter;
     font-size: 1.25rem;
     font-style: italic;
     font-weight: 400;
-    margin-top: 15rem;
+    line-height: normal;
+    margin-left: 1rem;
+    margin-top: 1.5em;
 }
+
 .blc2{
     width: 15rem;
-    height: 19rem;
+    height: 100%;
     color: #000;
     font-family: Inter;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    padding-left: 0.400rem;
+    padding: 0.400rem;
     background: #FAC92C;
     backdrop-filter: blur(2px);
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
+
 .coluna2{
-    width: 100vh;
     display: flex;
     flex-direction: column;
+    margin-right: 4em;
+    text-align: justify;
 }
+
 .quadro1{
     width: 15rem;
     height: 15rem;
     border-radius: 3.125rem;
     background: #E8D9EC;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-    margin-top: 1rem;
+    margin-top: .5rem;
+    margin-bottom: .5em;
 }
+
 .quadro2{
     width: 15rem;
     height: 15rem;
@@ -123,37 +150,37 @@
     margin-left: 2rem;
     margin-top: 2rem;
 }
+
 .second{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 1rem;
 }
-.cor2{
+
+.blc3{
     width: 16rem;
-    height: 22rem;
+    height: 100%;
     background: #FFDADF;
     backdrop-filter: blur(2px);
-    margin-top: 5rem;
-    margin-left: 2rem;
-}
-.blc3{
-    width: 15rem;
-    height: 25rem;
-    padding-left: 0.600rem;
+    padding: 0.600rem;
     color: #000;
     font-family: Inter;
     font-size: 0.9375rem;
     font-weight: 400;
+    margin-top: 4em;
 }
+
 .coluna3{
-    width: 100vh;
     display: flex;
     flex-direction: column;
+    margin-left: 3em;
+    margin-right: 2em;
+    text-align: justify;
 }
+
 .blc4{
     width: 15rem;
-    height: 24rem;
     color: #000;
     text-align: justify;
     font-family: Inter;
@@ -161,9 +188,9 @@
     font-style: normal;
     font-weight: 400;
 }
+
 .frase2{
     width: 13rem;
-    height: 4rem;
     color: #000;
     text-align: center;
     font-family: Inter;
@@ -172,48 +199,45 @@
     font-weight: 400;
     line-height: normal;
     margin-left: 1rem;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
-.cor3{
-    margin-top: 3rem;
-    width: 16rem;
-    height: 12rem;
-    background: #FEBBA1;
-    backdrop-filter: blur(2px);
-}
+
 .blc5{
-    padding-left: 0.200rem;
     width: 15rem;
-    height: 12rem;
+    height: 100%;
     color: #000;
     text-align: justify;
     font-family: Inter;
     font-size: 0.9375rem;   
     font-weight: 400;
-    padding-left: 0.500rem;
+    background: #FEBBA1;
+    backdrop-filter: blur(2px);
+    padding: 0.400rem;
 }
+
 .coluna4{
-    width: 100vh;
     display: flex;
     flex-direction: column;
+    margin-left: 1em;
+    margin-right: 3em;
+    text-align: justify;
 }
-.cor4{
-    width: 16rem;
-    height: 22rem;
-    background: #CBFCD2;
-    backdrop-filter: blur(2px);
-    margin-top: 1rem;
-}
+
 .blc6{
     width: 15rem;
-    height: 24rem;
+    height: 100%;
     color: #000;
     text-align: justify;
     font-family: Inter;
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 400;
-    padding-left: 0.500rem;
+    padding: 0.500rem;
+    background: #CBFCD2;
+    backdrop-filter: blur(2px);
 }
+
 .quadro3{
     margin-top: 3rem;
     width: 15rem;
@@ -222,6 +246,7 @@
     background: #E3CDB1;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
+
 .quadro4{
     width: 15rem;
     height: 15rem;
