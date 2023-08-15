@@ -59,13 +59,15 @@
 .primer{
     display: flex;
     justify-content: space-around;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 .colunas{
     width: 100vh;
     display: flex;
     flex-direction: column;
     margin-left: 4em;
+    justify-content: space-between;
+
 }
 .blc1{
     width: 15rem;
@@ -84,23 +86,20 @@
     font-size: 1.25rem;
     font-style: italic;
     font-weight: 400;
+    margin-top: 15rem;
 }
 .blc2{
     width: 15rem;
-    height: 12rem;
+    height: 19rem;
     color: #000;
     font-family: Inter;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    padding-left: 0.200rem;
-}
-.cor1{
-    width: 15rem;
-    height: 13rem;
-    margin-top: 2rem;
+    padding-left: 0.400rem;
     background: #FAC92C;
     backdrop-filter: blur(2px);
+    margin-top: 1rem;
 }
 .coluna2{
     width: 100vh;
@@ -128,6 +127,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 1rem;
 }
 .cor2{
     width: 16rem;
